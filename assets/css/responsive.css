@@ -1,0 +1,356 @@
+@media (max-width: 1920px) {
+}
+@media (max-width: 1615px) {
+  .banner-column-right .banner-right .iteam-contents {
+    padding: 27px;
+    padding-bottom: 10px;
+    margin-top: -123px;
+  }
+  .right-box-v2 {
+    margin-bottom: 0 !important;
+    margin-inline-end: auto;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 1367.98px) {
+  h2 {
+    font-size: 27px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  .banner-column-left .iteam-contents {
+    width: calc(100% - 39.268%);
+  }
+  .banner-column-right .banner-right .iteam-contents {
+    width: calc(100% - 60px);
+    padding: 20px;
+    bottom: -1px;
+  }
+  .banner-column-right .banner-right .iteam-contents h4 {
+    font-size: 17px;
+  }
+  .right-box-v2 {
+    margin-bottom: 0 !important;
+    margin-inline-end: auto;
+    margin-top: 20px;
+  }
+  .banner-column-left .iteam-contents h3 {
+    font-size: 24px;
+  }
+  .banner-iteam-blocks-wrapper .content-wish .description {
+    font-size: 17px;
+    padding: 25px 0px 30px 26px;
+  }
+  /* BANNER BOTTOM RESPOSIVE  */
+  .banner-iteam-blocks-wrapper {
+    border: 5px solid #e3e7eb;
+    height: 97%;
+  }
+  /* EDITOR PICKS RESPOSIVE  */
+  .editor-wrapper .middle-picks {
+    padding: 20px 0px;
+  }
+  .editor-wrapper .right-picks {
+    padding: 0;
+    padding-top: 20px;
+  }
+  .editor-wrapper .iteam-contentss {
+    padding: 20px auto;
+  }
+  .featured-wrapper .iteam-contents h4 {
+    padding: 12px 0;
+  }
+  .travel-right-blog .iteam-content h4 {
+    margin: 20px 0px;
+  }
+  .thamnail-block-right .box-content h4 {
+    padding: 12px 0px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .banner-column-left {
+    flex-basis: 100%;
+    max-width: 60%;
+  }
+  .banner-column-middle {
+    flex-basis: 100%;
+    max-width: 39%;
+  }
+  .banner-column-right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .banner-right {
+    flex-basis: 100%;
+    max-width: 49%;
+    margin-right: 0;
+  }
+  .right-box-v2 {
+    margin-top: 0px;
+  }
+  .right-box-v2 h4 {
+    font-size: 24px;
+  }
+  .banner-iteam-blocks-wrapper .content-wish .description {
+    font-size: 17px;
+    padding: 25px 0px 30px 26px;
+  }
+  .travel-blog-wrapper .iteam-blog-01 {
+    position: relative;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 991px) {
+  .menu-section .navbar {
+    padding-top: 0;
+  }
+  .main-nav {
+    background-color: #fff;
+    position: absolute;
+    top: 66px;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: none;
+    text-align: left;
+    z-index: 999;
+    box-shadow: 0px 5px 5px #bfbfbf61;
+  }
+  .main-nav .nav-item {
+    border-top: 1px solid rgba(37, 37, 37, 0.1);
+  }
+  .main-nav .nav-item a {
+    color: #1a1a1a;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 13px 15px;
+    width: 100%;
+    line-height: 30px;
+  }
+  .banner-column-left {
+    flex-basis: 100%;
+    max-width: 60%;
+  }
+  .banner-column-middle {
+    flex-basis: 100%;
+    max-width: 39%;
+  }
+  .banner-column-right .banner-right .iteam-contents {
+    padding: 22px;
+    margin-top: -124px;
+  }
+  .banner-column-right .banner-right .iteam-contents h4 {
+    font-size: 18px;
+  }
+  .banner-iteam-blocks-wrapper .content-wish .description {
+    font-size: 20px;
+    padding: 25px 0px 30px 26px;
+  }
+  .banner-iteam-blocks-wrapper {
+    border: 5px solid #e3e7eb;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  /* FASHION NEWS  */
+  .fashion-wrapper .iteam-contents {
+    padding: 25px 0px 25px 25px;
+  }
+  .fashion-wrapper .iteam-contents h4 a {
+    padding: 15px 0px;
+  }
+  .thamnail-block .iteam-blog-01 {
+    position: relative;
+  }
+  .travel-blog-wrapper {
+    margin-bottom: 250px;
+  }
+}
+@media (max-width: 767px) {
+  h3 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  .banner-column-left .iteam-contents {
+    padding: 27px;
+    padding-right: 0;
+    width: calc(100% - 30%);
+  }
+  .banner-column-left .iteam-contents h3 {
+    font-size: 22px;
+    padding: 15px 0px;
+  }
+  .travel-blog-wrapper .iteam-blog-01 .travel-content {
+    padding: 30px 0px 30px 30px;
+  }
+  .iteam-blog-content .thamnail-content {
+    padding: 30px 0px 30px 30px;
+  }
+  .footer-menu {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 19px;
+  }
+  p {
+    font-size: 13px;
+  }
+  header#headeer {
+    margin-bottom: 35px;
+  }
+  .header-middle-wrapper {
+    justify-content: center;
+    align-items: baseline;
+  }
+  .header-social-icon {
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+
+  .banner-column-left {
+    display: block;
+    max-width: 100%;
+  }
+  .banner-column-left .iteam-contents {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .banner-column-left .iteam-contents .sub-heading {
+    padding-top: 27px;
+  }
+  .banner-column-left .iteam-contents p,
+  .banner-column-left .iteam-contents h3 {
+    padding-left: 27px;
+  }
+  .banner-column-left .iteam-contents p {
+    font-size: 13px;
+  }
+
+  .banner-column-left .iteam-contents h3 {
+    font-size: 22px;
+    padding-bottom: 5px;
+  }
+  .banner-column-left .iteam-contents .meta-desciptions {
+    padding-bottom: 27px;
+  }
+  .banner-column-middle {
+    margin-top: 20px;
+    max-width: 100%;
+  }
+  /* .banner-column-middle .banner-card img {
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+  } */
+  .banner-column-right {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .banner-iteam-blocks-wrapper {
+    display: block;
+  }
+  .banner-iteam-blocks-wrapper img {
+    width: 100%;
+  }
+  .banner-column-right {
+    display: block;
+    max-width: 100%;
+  }
+  .banner-column-right .banner-right {
+    position: relative;
+    margin-top: 20px;
+    max-width: 100%;
+  }
+  .banner-column-right .banner-right .iteam-contents {
+    position: absolute;
+    bottom: 0;
+    background: #fff;
+  }
+  .banner-bottom-section .margin {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .banner-iteam-blocks-wrapper .content-wish {
+    width: 100%;
+  }
+  .big-pic {
+    margin-bottom: 40px;
+  }
+  .editor-wrapper .iteam-blog-content {
+    position: absolute;
+    margin: 0;
+    padding: 20px 0px 20px 20px;
+    bottom: 0;
+    right: 0;
+  }
+  .thamnail-block {
+    padding-bottom: 120px;
+  }
+  .thamnail-block .iteam-blog-01 .iteam-blog-content {
+    position: absolute;
+    margin: 0;
+    bottom: -120px;
+    right: 0;
+    padding: 30px 0px 30px 20px;
+  }
+  .thamnail-block .iteam-blog-01 .right-content {
+    bottom: -90%;
+  }
+  .blog-section .margin {
+    margin-top: 20px;
+  }
+  .heading-title {
+    font-size: 25px;
+  }
+  .fashion-section {
+    padding-top: 0;
+  }
+  .travel-blog-wrapper .iteam-blog-01 .travel-content {
+    padding: 20px 0px 20px 20px;
+  }
+  .travel-right-blog .iteam-content h4 {
+    padding: 10px 0px;
+    margin: 0 auto;
+  }
+  .subcriptio-wrapper form {
+    width: 100%;
+    display: block;
+    margin: inherit;
+  }
+
+  .footer-menu li {
+    width: 100%;
+    display: block;
+    margin-right: 20px;
+    padding: 10px 5px;
+    text-align: center;
+  }
+  .footer-bottom p.coppyright {
+    padding: 30px 10px;
+  }
+}

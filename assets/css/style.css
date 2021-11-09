@@ -1,0 +1,99 @@
+img {
+  width: auto;
+  height: auto;
+  display: block;
+}
+
+/* FOOTER SECTION */
+#footer .footer-top {
+  padding: 120px 0px 70px 0px;
+  background: #252525;
+}
+#footer .subcribe {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#footer .subcribe input[type="email"] {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 25px 30px;
+  line-height: initial;
+  transition: 0.3s linear;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  font-size: 13px;
+  color: #494848;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+#footer .subcribe input::placeholder {
+  text-transform: capitalize;
+  color: #494848;
+}
+#footer .subcribe button.button {
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  z-index: 4;
+  width: 100%;
+  height: 50px;
+  max-width: 150px;
+  max-height: 40px;
+  margin: 0;
+  padding: 24px 30px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  color: #020000;
+  background: #ffff00;
+  text-align: center;
+  transition: 0.3s linear;
+  transform: translateY(-100%);
+  font-size: 13px;
+  line-height: 0.5;
+}
+#footer .footer-body {
+  margin-top: 70px;
+}
+#footer .footer-body .single-column h3.headingh3 {
+  margin-bottom: 50px;
+}
+#footer .single-column.item-01 p {
+  font-family: "Lato";
+  font-size: 17px;
+  font-weight: 400;
+  color: #fefefe;
+}
+#footer .single-column ul > li > a {
+  font-family: "Lato";
+  font-size: 17px;
+  font-weight: 400;
+  color: #fefefe;
+  text-decoration: none;
+}
+#footer .single-column ul > li:hover > a {
+  color: #ffff00;
+}
+#footer .single-column a.logo {
+  margin-top: -22px;
+  margin-bottom: 30px;
+}
+
+#footer .single-column .footer-logo a.logo img {
+  width: auto;
+  height: auto;
+  display: inline;
+}
+.footer-copyright-body {
+  background: #7a772d;
+}
+.footer-copyright-body p {
+  color: #ffffff;
+  padding: 25px 0px;
+}
