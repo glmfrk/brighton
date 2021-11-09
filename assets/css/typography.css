@@ -9,19 +9,12 @@ body {
   scroll-behavior: smooth;
   transition: all 0.3s ease;
 }
-div,
+
 section {
+  padding: 0px 10px;
   box-sizing: border-box;
 }
-.section-wrapper {
-  padding-top: 100px;
-  padding-bottom: 80px;
-}
-.section-title {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 60px;
-}
+
 h1,
 h2,
 h3,
@@ -73,7 +66,7 @@ h1 {
 }
 .headingh3 {
   font-family: "Lato", sans-serif;
-  font-size: 25px;
+  font-size: 24px;
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;

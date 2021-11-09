@@ -3,8 +3,135 @@ img {
   height: auto;
   display: block;
 }
+/*===============
+ABOUT SECTION STYLES HERE
+ ===========================  */
+#about-us {
+  background: rgb(230, 230, 230);
+}
+#about-us .about-wrapper {
+  padding: 150px 0;
+  background: rgb(230, 230, 230);
+}
 
-/* FOOTER SECTION */
+/*===============
+ COUSTOMER FEEDBACK SECTION STYLES HERE
+ ===========================  */
+#customer-feedback {
+  background: #ffffff;
+}
+#customer-feedback .feedbak-wrapper {
+  padding-top: 190px;
+  padding-bottom: 90px;
+}
+#customer-feedback .feedbak-wrapper .heading {
+  padding-bottom: 90px;
+}
+#customer-feedback .feedbak-wrapper .customer img {
+  margin: auto;
+}
+#customer-feedback .feedback {
+  text-align: center;
+  width: 100%;
+}
+#customer-feedback .feedbak-wrapper .feedback .headingh3 {
+  font-family: "Lato", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  color: #1d1b28;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+#customer-feedback .feedbak-wrapper .feedback .designation {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #7f7f31;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+#customer-feedback .feedbak-wrapper .feedback p {
+  margin-bottom: 25px;
+  color: #080707;
+}
+
+#customer-feedback .feedback h3.headingh3 {
+  text-align: center;
+  color: #080707;
+}
+#customer-feedback .feedback h3.headingh3 {
+  text-align: center;
+  color: #080707;
+}
+#customer-feedback .feedback p {
+  text-align: center;
+  color: #080707;
+}
+#customer-feedback .feedback img {
+  width: auto;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+/*===============
+ CONTACT FORM STYLES HERE
+ ===========================  */
+#contact {
+  background: #516603;
+}
+#contact .contact-wrapper {
+  padding-top: 90px;
+  padding-bottom: 55px;
+}
+#contact .heading {
+  padding-bottom: 75px;
+  color: #ffffff;
+}
+#contact .heading span {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  padding-bottom: 30px;
+  color: #080707;
+}
+#contact .contanct-form form {
+  width: 100%;
+  height: 100%;
+}
+
+#contact .contanct-form form input,
+#contact .contanct-form form textarea {
+  width: 100%;
+  height: 100%;
+  padding: 25px 30px;
+  display: inline-block;
+  margin-bottom: 35px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+}
+#contact .contanct-form form textarea {
+  margin-bottom: 0px;
+}
+#contact .button {
+  font-family: "Poppins" sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  margin-top: 50px;
+  background: hsl(0, 100%, 52%);
+  transition: all 0.4s linear;
+}
+#contact .button:hover {
+  background: hsl(56, 97%, 56%);
+}
+/*===============
+ FOOTER SECTION STYLES HERE 
+ ============================*/
 #footer .footer-top {
   padding: 120px 0px 70px 0px;
   background: #252525;
