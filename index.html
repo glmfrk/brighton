@@ -9,7 +9,7 @@
     <!-- ROBOTO FONTS FROM GOOGLE -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
     <!-- LATO FONTS FROM GOOGLE -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,24 +32,63 @@
   </head>
   <body>
     <!-- START HEADER SECTION -->
-    <header id="header"></header>
+    <header id="header">
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./assets/images/logo/logo.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
     <!-- HEADER SECTION END -->
 
     <!-- START BANNER SECTION -->
     <section id="banner">
-      <div class="banner-bg">
-        <div class="banner-contet-wrapper">
-          <div class="content-blog">
-            <span class="sub-title">a perfect learning center</span>
-            <h1 class="title">for your kinds</h1>
-            <p class="mute">
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as 
-            </p>
-            <a href="#" type="button" class="btn button read-more-btn">read more</a>
-          </a>
-            <a href="#" class="btn button contact-btn">contact us</a>
+      <div class="banner-wrapper">
+        <div class="banner-top-wrapper">
+          <div class="bnner-top-container">
+            <div class="banner-block-box">
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="content-blog">
+                    <span class="sub-title">a perfect learning center</span>
+                    <h1 class="title">for your kinds</h1>
+                    <p class="text">It is a long established fact that a reader will be distracted by the readable content of a <br> page when looking at its layout. The point of using Lorem Ipsum is that it has a <br> more-or-less normal distribution of letters, as </p>
+                    <a href="#" type="button" class="btn button read-more-btn">read more</a>
+                    </a>
+                    <a href="#" type="button" class="btn button contact-btn">contact us</a>
+                    <div class="doted-wrapper">
+                      <span class="point point-01"></span>
+                      <span class="point point-02"></span>
+                      <span class="point point-03"></span>
+                      <span class="point point-04"></span>
+                      <span class="point point-05"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="content-blog"></div>
         </div>
       </div>
     </section>
@@ -57,20 +96,81 @@
 
     <!-- START OFFER SECTION -->
     <section id="offer" class="get-offer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h2 class="heading text-left">what we offer</h2>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
+      <div class="offer-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-title">
+                <h2 class="heading"> <span class="h2-color"></span> what we offer</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-            <div class="single-offer">
-              <div class="item-img"> <img src="./assets/images/offer/1.png" alt="offer-img"> </div>
-              <div class="item-content">
-                <h5 class="headingh5">safety first</h5>
-                <p class="mute text-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut eveniet sed quidem provident enim impedit ipsum ea magnam pariatur dolor!</p>
+          <div class="row g-0">
+            <div class=" col-md-6 col-12">
+              <div class="offer-contents">
+                  <div class="single-offer single-item-01">
+                    <div class="item-img"> <img src="./assets/images/offer/1.png" alt="offer-img"> </div>
+                    <div class="item-content">
+                      <h5 class="headingh5"><a href="#">safety first</a></h5>
+                      <p class="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class=" col-md-6 col-12">
+              <div class="offer-contents">
+                  <div class="single-offer single-item-01">
+                    <div class="item-img"> <img src="./assets/images/offer/2.png" alt="offer-img"> </div>
+                    <div class="item-content">
+                      <h5 class="headingh5"><a href="#">safety first</a></h5>
+                      <p class="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class=" col-md-6 col-12">
+              <div class="offer-contents">
+                  <div class="single-offer single-item-01">
+                    <div class="item-img"> <img src="./assets/images/offer/3.png" alt="offer-img"> </div>
+                    <div class="item-content">
+                      <h5 class="headingh5"><a href="#">safety first</a></h5>
+                      <p class="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class=" col-md-6 col-12">
+              <div class="offer-contents">
+                  <div class="single-offer single-item-01">
+                    <div class="item-img"> <img src="./assets/images/offer/4.png" alt="offer-img"> </div>
+                    <div class="item-content">
+                      <h5 class="headingh5"><a href="#">safety first</a></h5>
+                      <p class="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class=" col-md-6 col-12">
+              <div class="offer-contents">
+                  <div class="single-offer single-item-01">
+                    <div class="item-img"> <img src="./assets/images/offer/5.png" alt="offer-img"> </div>
+                    <div class="item-content">
+                      <h5 class="headingh5"><a href="#">safety first</a></h5>
+                      <p class="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class=" col-md-6 col-12">
+              <div class="offer-contents">
+                  <div class="single-offer single-item-01">
+                    <div class="item-img"> <img src="./assets/images/offer/6.png" alt="offer-img"> </div>
+                    <div class="item-content">
+                      <h5 class="headingh5"><a href="#">safety first</a></h5>
+                      <p class="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
@@ -83,15 +183,19 @@
     <section id="about-us" class="about-us">
       <div class="about-wrapper">
         <div class="row">
-          <div class="col-lg-7 d-lg-block d-none">
-            <img src="./assets/images/about/about.jpg" alt="about.jpg">
+          <div class="col-md-6 d-md-block d-none">
+            
           </div>
-          <div class="col-lg-5">
+          <div class="col-md-5 offset-lg-1">
             <div class="about-content">
-              <h2 class="heading">a few words about us</h2>
-              <p class="mute">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis enim modi perferendis qui, dolorum numquam, amet molestias quod aliquam provident accusantium natus corporis sapiente, maxime ratione culpa doloribus velit! Commodi repellat a rerum cumque veritatis explicabo illo dolor consequuntur eaque ipsam. Aperiam facere vel, adipisci quisquam eius, possimus recusandae perferendis est quibusdam sit eos! Laboriosam ea aperiam iure libero. Voluptas saepe quo, repudiandae eligendi dolorum recusandae aliquam nesciunt ratione labore porro esse. Quisquam sint repellat accusantium? Ab perferendis accusantium debitis?</p>
-              <button class="btn button read-more">read more</button>
+              <div class="section-title">
+                <h2 class="heading"><span class="h2-color"></span> a few words about us</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web</p>
+              </div>
+              <button class="btn button read-more-btn">read more</button>
             </div>
+          </div>
+          <div class="col-md-1 d-md-block d-none ">
           </div>
         </div>
       </div>
@@ -103,16 +207,16 @@
       <div class="feedbak-wrapper">
         <div class="container">
           <div class="row">
-            <div class="col-12"><h2 class="heading">parent's feedback</h2></div>
+            <div class="col-12"><div class="section-title"><h2 class="heading"><span class="h2-color"></span> parent's feedback</h2></div></div>
           </div>
           <div class="content-feedback">
             <div class="customer">
               <img src="./assets/images/feedback/border-img.jpg" alt="feedback-img">
             </div>
             <div class="feedback">
-              <h3 class="headingh3">rohali jonson</h3>
+              <h3 class="headingh3"><a href="#">rohali jonson</a></h3>
               <h5 class="designation">customer</h5>
-              <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error quam dolores possimus officiis! Consectetur saepe quaerat nostrum eveniet! Qui provident itaque fugiat, numquam voluptatum quis id, enim eaque voluptas optio soluta impedit temporibus modi suscipit inventore perspiciatis ab aperiam. Vel.</p>
+              <p class="lead">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined </p>
               <img src="./assets/images/feedback/left-quote.jpg" alt="left-quote.jpg">
             </div>
           </div>
@@ -126,12 +230,16 @@
       <div class="contact-wrapper">
         <div class="container">
           <div class="row">
-            <h2 class="heading"> <span>request</span> a call back</h2>
+            <div class="col-12">
+              <div class="section-title">
+                <h2 class="heading"> <span class="h2-color">request</span> a call back</h2>
+              </div>
+            </div>
           </div>
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12">
               <div class="contanct-form">
-                <form action="#">
+                <form action="#" method="POST" class="contact">
                   <input type="text" name="username" id="username" placeholder="name" required>
                   <input type="email" name="email" id="email" placeholder="example@email.com" required>
                   <input type="number" name="number" id="number" placeholder="phone number" required>
@@ -161,7 +269,7 @@
             <h3 class="headingh3">newsletters</h3>
           </div>
           <div class="col-lg-4 offset-lg-1">
-            <form class="subcribe">
+            <form action="#" method="POST" class="subcribe">
               <input type="email" name="email" id="email" placeholder="enter your email" />
             <button 
             class ="btn button" type="submit">subscribe</button>
@@ -175,19 +283,19 @@
                 <a class="logo" href="#">
                   <img src="./assets/images/logo/logo.png" alt="logo">
                 </a>
-                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat eros.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.</p>
               </div>
             </div>
             <div class=" col-lg-2 col-md-6 offset-lg-1">
               <div class="single-column item-02">
                 <h3 class="headingh3">contact us</h3>
                 <ul>
-                  <li><a href="#">Lorem, ipsum.</a></li>
-                  <li><a href="#">Expedita, impedit.</a></li>
-                  <li><a href="#">Sit, dolorem?</a></li>
-                  <li><a href="#">Animi, distinctio.</a></li>
-                  <li><a href="#">Aspernatur, illo!</a></li>
-                  <li><a href="#">Ad, voluptatibus.</a></li>
+                  <li><a href="#">Donec odio.Quisque</a></li>
+                  <li><a href="#">volutpat mattis</a></li>
+                  <li><a href="#">eros.Lorem ipsum</a></li>
+                  <li><a href="#">dolor sit amet,</a></li>
+                  <li><a href="#">consectetuer</a></li>
+                  <li><a href="#">adipiscing elit. Donec</a></li>
                 </ul>
               </div>
             </div>
@@ -195,12 +303,12 @@
               <div class="single-column item-03">
                 <h3 class="headingh3">information</h3>
                 <ul>
-                  <li><a href="#">Lorem, ipsum.</a></li>
-                  <li><a href="#">Expedita, impedit.</a></li>
-                  <li><a href="#">Sit, dolorem?</a></li>
-                  <li><a href="#">Animi, distinctio.</a></li>
-                  <li><a href="#">Aspernatur, illo!</a></li>
-                  <li><a href="#">Ad, voluptatibus.</a></li>
+                  <li><a href="#">Donec odio.Quisque</a></li>
+                  <li><a href="#">volutpat mattis</a></li>
+                  <li><a href="#">eros.Lorem ipsum</a></li>
+                  <li><a href="#">dolor sit amet,</a></li>
+                  <li><a href="#">consectetuer</a></li>
+                  <li><a href="#">adipiscing elit. Donec</a></li>
                 </ul>
               </div>
             </div>
@@ -208,12 +316,12 @@
               <div class="single-column item-04">
                 <h3 class="headingh3">my account</h3>
                 <ul>
-                  <li><a href="#">Lorem, ipsum.</a></li>
-                  <li><a href="#">Expedita, impedit.</a></li>
-                  <li><a href="#">Sit, dolorem?</a></li>
-                  <li><a href="#">Animi, distinctio.</a></li>
-                  <li><a href="#">Aspernatur, illo!</a></li>
-                  <li><a href="#">Ad, voluptatibus.</a></li>
+                  <li><a href="#">Donec odio.Quisque</a></li>
+                  <li><a href="#">volutpat mattis</a></li>
+                  <li><a href="#">eros.Lorem ipsum</a></li>
+                  <li><a href="#">dolor sit amet,</a></li>
+                  <li><a href="#">consectetuer</a></li>
+                  <li><a href="#">adipiscing elit. Donec</a></li>
                 </ul>
               </div>
             </div> 
