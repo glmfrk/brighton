@@ -5,21 +5,24 @@ $(document).ready(function(){
     // Sticky Start
     //=============================
 
-    $(window).on("scroll", function (event) {
-        var scroll = $(window).scrollTop();
-        if (scroll < 200) {
-            $(".fixed-menu").removeClass("sticky");
-        } else {
-            $(".fixed-menu").addClass("sticky");
-        }
-    });
+    // $(window).on("scroll", function (event) {
+    //     var scroll = $(window).scrollTop();
+    //     if (scroll < 200) {
+    //         $(".fixed-menu").removeClass("sticky");
+    //     } else {
+    //         $(".fixed-menu").addClass("sticky");
+    //     }
+    // });
+
+
         //=============================
     // MOBILE Nav
     //=============================
 
-    $(".navbar-toggler").on("click", function () {
-        $(".main-nav").slideToggle(500);
-    });
+    // $(".navbar-toggler").on("click", function () {
+    //     $(".main-nav").slideToggle(500);
+    // });
+
 
     $('.owl-carousel').owlCarousel({
         loop:true,
@@ -32,32 +35,48 @@ $(document).ready(function(){
                 autoplay:true
             },
             600:{
-                items:2,
+                items:1,
                 nav:false,
                 autoplay:true
             },
             800:{
-                items:3,
+                items:1,
                 nav:false,
                 autoplay:true
             },
             1000:{
-                items:5,
-                nav:false,
+                items:1,
                 loop:true,
+                nav:true,
                 autoplay:true
             }
         }
-    })
+    });
+});
+
 
     $(".search-icon-bar a").click(function(){
         $(".search-popup").toggle(500);
       });
 
-      if ($(window).scroll() < 200) {
-          $(".navigation").addClass('sticky');
+      // if ($(window).scroll() < 200) {
+      //     $(".navigation").addClass('sticky');
           
-      }
+      // };
+
+    //=============================
+    // Sticky Start
+    //=============================
+
+    $(window).on("scroll", function (event) {
+        var scroll = $(window).scrollTop();
+        if (scroll < 200) {
+            $("header").removeClass("sticky");
+        } else {
+            $("header").addClass("sticky");
+        }
+    });
+
 
           //hamburger Toggle
     $('.humbarger').click(function(event){
@@ -70,6 +89,27 @@ $(document).ready(function(){
               event.preventDefault(); 
             }
           });
+
+
+          // customer slider
+        //   $('.owl-carousel').owlCarousel({
+        //     margin:10,
+        //     loop:true,
+        //     autoWidth:true,
+        //     items:1
+        // });
+
+
+
+
+
+
+
+
+
+
+
+
 
   });
  
