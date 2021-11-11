@@ -8,18 +8,114 @@ HEADER SECTION STYLES HERE
  ===========================  */
 #header {
   background: #90953b;
+  overflow: hidden;
 }
 /* LOGO PART  */
+.navigation .logo-box {
+  margin-left: 20px;
+}
+
+.navigation .logo-box a {
+  color: #b1d4e0;
+  font-size: 30px;
+  line-height: 38px;
+}
 
 /* NAVBAR MENU PART  */
+.menu-wrapper {
+  width: 100%;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 12vh;
+  width: 100%;
+  z-index: 10;
+  background: #90953b;
+  padding: 5px 95px;
+}
+.sticky {
+  background: #fff;
+  padding: 0 px 10 px;
+  position: fixed;
+  height: 80 px;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  -webkit-animation: sticky 0.5s;
+  animation: sticky 0.5s;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 40%);
+}
+@keyframes sticky {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+.navigation .menu-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+  margin: auto 20px auto 0;
+}
+
+.navigation .humbarger {
+  margin-right: 20px;
+  display: none;
+}
+
+.navigation .humbarger .bar {
+  width: 30px;
+  height: 2px;
+  margin: 7px;
+  background: #b1d4e0;
+}
+.navigation .menu-list li {
+  position: relative;
+}
+.navigation .menu-list li::after {
+  position: absolute;
+  content: "";
+  z-index: 2;
+  top: 25px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  display: none;
+}
+.navigation .menu-list li a {
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.4s linear;
+  text-decoration: none;
+}
+.navigation .menu-list li:hover::after {
+  display: block;
+  background: #ffff00;
+}
+.navigation .menu-list li:hover a {
+  color: #070707;
+}
+
 /*===============
 BANNER SECTION STYLES HERE
  ===========================  */
+
 #banner .banner-wrapper {
   background: #78853f;
   padding-top: 45px;
   position: relative;
 }
+
 #banner .banner-wrapper::after {
   position: absolute;
   content: "";
@@ -272,29 +368,29 @@ ABOUT SECTION STYLES HERE
   position: relative;
   overflow: hidden;
 }
-#contact .contact-wrapper {
+.contact-wrapper {
   background: #90973b;
   padding-top: 94px;
   padding-bottom: 70px;
 }
-#contact .heading {
+.heading {
   padding-bottom: 75px;
   color: #ffffff;
 }
-#contact .heading span {
+.heading span {
   font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
   padding-bottom: 30px;
   color: #080707;
 }
-#contact .contanct-form form {
+.contanct-form form {
   width: 100%;
   height: 100%;
 }
 
-#contact .contanct-form form input,
-#contact .contanct-form form textarea {
+.contanct-form form input,
+.contanct-form form textarea {
   width: 100%;
   height: 100%;
   padding: 25px 30px;
@@ -305,12 +401,12 @@ ABOUT SECTION STYLES HERE
   border-radius: 50px;
   text-transform: capitalize;
 }
-#contact .contanct-form form textarea {
+.contanct-form form textarea {
   border-radius: 30px;
   margin-bottom: 0px;
   resize: none;
 }
-#contact .contact-btn {
+.contact-btn {
   font-family: "Poppins" sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -323,7 +419,7 @@ ABOUT SECTION STYLES HERE
   background: #fa0909;
   transition: all 0.4s linear;
 }
-#contact .contact-btn:hover {
+.contact-btn:hover {
   color: #fa0909;
   border-color: #100404;
   text-shadow: 1px -1px rgb(194, 194, 194);
@@ -388,7 +484,7 @@ ABOUT SECTION STYLES HERE
 #footer .footer-body {
   margin-top: 70px;
 }
-#footer .footer-body .single-column h3.headingh3 {
+.footer-body .single-column h3.headingh3 {
   margin-bottom: 50px;
 }
 #footer .single-column.item-01 p {
