@@ -357,12 +357,14 @@ ABOUT SECTION STYLES HERE
   margin-bottom: 0;
 }
 .customer-feedback .feedbak-wrapper .customer img {
+  width: 100%;
   margin: auto;
 }
 .customer-feedback .feedback {
   text-align: center;
   width: 100%;
 }
+
 .feedbak-wrapper .feedback .headingh3 {
   font-family: "Lato", sans-serif;
   font-size: 26px;

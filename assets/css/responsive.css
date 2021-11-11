@@ -199,10 +199,18 @@
   }
   #banner .content-blog a.button {
     width: 180px;
+    padding: 20px 25px;
     margin-bottom: 30px;
   }
   .contact-wrapper .contact-btn {
     margin: auto;
+  }
+  .button {
+    padding: 20px 25px;
+  }
+  .about-content .read-more-btn {
+    max-width: 180px;
+    padding: 20px 25px;
   }
 }
 @media only screen and (max-width: 374.99px) {
@@ -217,7 +225,7 @@
   h1.title {
     font-size: 33px;
   }
-  .owl-carousel .owl-item img {
+  .feedbak-wrapper .customer img {
     width: 100%;
   }
   .contact-wrapper .contact-btn {
