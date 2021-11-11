@@ -357,7 +357,7 @@ ABOUT SECTION STYLES HERE
   margin-bottom: 0;
 }
 .customer-feedback .feedbak-wrapper .customer img {
-  width: 100%;
+  width: auto;
   margin: auto;
 }
 .customer-feedback .feedback {
@@ -401,7 +401,7 @@ ABOUT SECTION STYLES HERE
   color: #080707;
 }
 .customer-feedback .feedback img {
-  width: auto;
+  width: 100%;
   height: auto;
   display: block;
   margin: auto;
